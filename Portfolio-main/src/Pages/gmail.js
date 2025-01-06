@@ -1,24 +1,4 @@
-// import nodemailer from 'nodemailer';
-// Import Nodemailer modules conditionally
 
-// Create a transporter with your email configuration
-
-// const transporter = nodemailer.createTransport({
-//   service: "Gmail",
-//   host: "smtp.gmail.com",
-//   port: 465,
-//   secure: true,
-//   auth: {
-//     user: 'mohanprasad.naraganti@gmail.com',
-//     pass: "bcvm tzyh yrgk kzjc"
-//   },
-// });
-// const mailOptions = {
-//   from: "your_email@gmail.com",
-//   to: "recipient@example.com",
-//   subject: "Hello from Nodemailer",
-//   text: "This is a test email sent using Nodemailer.",
-// };
 var postmark = require("postmark");
 var client = new postmark.Client("bcvm tzyh yrgk kzjc");
 
