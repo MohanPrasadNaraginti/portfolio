@@ -19,7 +19,6 @@ function Navbar() {
         <div className="menu-btn">
           <NavLink className="nav-link link" to="/">
             <img
-              // src="/assets/profile.png"
               src={profilepic}
               width="244"
               height="258"

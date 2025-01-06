@@ -12,6 +12,7 @@ import {
   
 } from "react-icons/fa";
 import styled from "styled-components";
+import profilepic from "../assets/profilepic.jpeg"
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
           <div className="slide"></div>
           <div className="image">
             <img
-              src="/assets/profilepic.jpeg"
+              src={profilepic}
               width="936"
               height="936"
               alt="profile"
