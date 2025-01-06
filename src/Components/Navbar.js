@@ -6,7 +6,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { AiOutlineBars, AiOutlineClose } from "react-icons/ai";
 import { IoIosBrush, IoMdListBox } from "react-icons/io";
 import styled from "styled-components";
-import profilepic from "../../public/assets/profilepic.jpeg"
+import profilepic from "../assets/profilepic.jpeg"
 
 import Toggler from "./Toggler";
 
